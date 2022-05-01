@@ -10,8 +10,8 @@ const skillsList = [
 const projectList = [
     {
         id: 1,
-        title: "Tunflix",
-        technologies: ["React JS", "Node JS", "MongoDB"],
+        title: "PotteryBarn Clone | Apr 2022 | ",
+        technologies: ["React JS", "Node JS", "MongoDB", "Express JS"],
         backgroundImage:
             "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
         frontImage: "https://i.ibb.co/L0F7mKX/tunflix.png",

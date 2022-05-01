@@ -66,10 +66,6 @@ const LangSelector = (props) => {
                     <span className={`flag-icon flag-icon-gb ${classes.flagIcon}`} />
                     EN
                 </MenuItem>
-                <MenuItem className={classes.menuItem} onClick={() => handleClose("fr")}>
-                    <span className={`flag-icon flag-icon-fr ${classes.flagIcon}`} />
-                    FR
-                </MenuItem>
             </Menu>
         </div>
     );
