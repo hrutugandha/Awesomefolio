@@ -1,11 +1,16 @@
+
+
+
 const skillsList = [
     { title: "React JS", value: 75 },
-    { title: "Next js", value: 80 },
-    { title: "Material UI", value: 80 },
+    { title: "Node js", value: 80 },
+    { title: "Mongo DB", value: 80 },
     { title: "Styled components", value: 80 },
-    { title: "Node JS ", value: 60 },
-    { title: "Express JS ", value: 70 },
-    { title: "Firebase", value: 70 },
+    { title: "HTML5", value: 60 },
+    { title: "CSS3 ", value: 70 },
+    { title: "Data Structure and Algorithms", value: 70 },
+    { title: "Python", value: 70 },
+    { title: "Microsoft Excel", value: 70 },
 ];
 const projectList = [
     {
@@ -13,44 +18,56 @@ const projectList = [
         title: "PotteryBarn Clone | Apr 2022 | ",
         technologies: ["React JS", "Node JS", "MongoDB", "Express JS"],
         backgroundImage:
-            "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
-        frontImage: "https://i.ibb.co/L0F7mKX/tunflix.png",
+            "https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?cs=srgb&dl=pexels-ben-mack-6775241.jpg&fm=jpg",
+        frontImage: "https://www.retail4growth.com/public/uploads/editor/2019-04-17/1555498144.jpg",
     },
     {
         id: 2,
-        title: "Code Hub",
-        technologies: ["React JS"],
+        title: "SugarCosmetics Clone | Feb 2022",
+        technologies: ["HTML","CSS","JavaScript"],
         backgroundImage:
-            "https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg&ga=GA1.2.2102900112.1628985600",
-        frontImage: "https://i.ibb.co/zNMJFTW/Webp-net-resizeimage.png",
+            "https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?cs=srgb&dl=pexels-ben-mack-6775241.jpg&fm=jpg",
+        frontImage: "https://customercarelife.com/wp-content/uploads/2020/08/Sugar-Cosmetics.jpg",
     },
     {
         id: 3,
-        title: "Burpees.io",
-        technologies: ["React JS", "Node JS", "MongoDB"],
+        title: "Weather App | Solo Project - Jan 2022",
+        technologies: ["HTML","CSS","JavaScript","API"],
         backgroundImage:
-            "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
-        frontImage: "https://themes-backend.material-ui.com/wp-content/uploads/2021/05/01_preview.jpg",
+            "https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?cs=srgb&dl=pexels-ben-mack-6775241.jpg&fm=jpg",
+        frontImage: "https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App.png",
     },
 ];
 
 const experienceList = [
     {
         id: 0,
-        company: "Code Hub",
+        company: "I AM Art Auction House Inc.",
         links: {
-            website: "https://www.codehub.tn",
-            facebook: "https://www.facebook.com/codehubtn/",
-            instagram: "https://www.instagram.com/codehub.coworking/",
-        },
-    },
-    {
-        id: 1,
-        company: "vapoter.tn",
-        links: {
-            instagram: "https://www.instagram.com/vapoter.tn/",
+            website: "https://www.iamarthouse.org/",
+            facebook: "https://www.facebook.com/iamarthouse/",
+            instagram: "https://www.instagram.com/iamarthouse/?hl=en",
         },
     },
 ];
 
-export { skillsList, projectList, experienceList };
+const educationList = [
+    {
+        id: 0,
+        company: "Masai School",
+        links: {
+            website: "https://www.masaischool.com/",
+            facebook: "https://www.facebook.com/masaischool/",
+        },
+    },
+    {
+        id: 1,
+        company: "Ajeenkya DY Patil University",
+        links: {
+            website: "https://www.masaischool.com/",
+            facebook: "https://www.facebook.com/masaischool/",
+        },
+    },
+];
+
+export { skillsList, projectList, experienceList ,educationList};
