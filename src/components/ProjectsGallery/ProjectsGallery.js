@@ -27,6 +27,8 @@ const ProjectsGallery = () => {
                         <Card
                             id={item.id}
                             title={item.title}
+                            gitHub={item.giHhub}
+                            webSite={item.webSite}
                             overview={t(`projects_${item.id}_overview`)}
                             backgroundImage={item.backgroundImage}
                             frontImage={item.frontImage}
@@ -44,6 +46,8 @@ const ProjectsGallery = () => {
                         key={selectedId}
                         id={selectedId}
                         title={getSelected(selectedId).title}
+                        gitHub={getSelected(selectedId).gitHub}
+                        webSite={getSelected(selectedId).webSite}
                         overview={t(`projects_${selectedId}_extended_overview`)}
                         backgroundImage={getSelected(selectedId).backgroundImage}
                         frontImage={getSelected(selectedId).frontImage}

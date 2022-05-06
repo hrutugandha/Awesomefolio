@@ -8,10 +8,15 @@ import {
     IconButton,
 } from "@material-ui/core";
 import { Close } from "@material-ui/icons";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
+import IconBtn from "../IconBtn";
+import { GitHub, Language} from "@material-ui/icons";
+import {Link } from "@material-ui/core";
 
-const ExtendedCard = ({ id, title, backgroundImage, frontImage, overview, technologies, handleClose, ...rest }) => {
+
+const ExtendedCard = ({ id, title, gitHub, webSite, backgroundImage, frontImage, overview, technologies, handleClose, ...rest }) => {
     const classes = useStyles();
+    const controls = useAnimation();
 
     return (
         <div className={classes.wrapper}>
@@ -41,6 +46,20 @@ const ExtendedCard = ({ id, title, backgroundImage, frontImage, overview, techno
                             >
                                 {title}
                             </Typography>
+                            <div style={{
+    display: 'inline-flex',
+    VerticalAlign: 'text-bottom',
+    BoxSizing: 'inherit',
+    textAlign: 'center',
+    AlignItems: 'center'
+}}>
+                            <motion.div animate={controls} custom={0} >
+                                <IconBtn fontSize="small" icon={GitHub} m={1} href={gitHub} />                           
+                            </motion.div>
+                            <motion.div animate={controls} custom={0}>
+                                <IconBtn fontSize="small" icon={Language} fontSize={28} m={1} href={webSite} />
+                            </motion.div>
+                                </div>
                             <Typography
                                 variant="body2"
                                 className={classes.overview}

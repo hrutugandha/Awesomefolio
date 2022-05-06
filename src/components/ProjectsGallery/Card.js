@@ -31,7 +31,7 @@ const titleVariants = {
     },
 };
 
-const Card = ({ id, title, backgroundImage, frontImage, overview, technologies, onClick, ...rest }) => {
+const Card = ({ id, title,github, backgroundImage, frontImage, overview, technologies, onClick, ...rest }) => {
     const classes = useStyles();
     const controls = useAnimation();
     const handleMouseEnterControls = () => {
@@ -85,7 +85,7 @@ const Card = ({ id, title, backgroundImage, frontImage, overview, technologies, 
                         className={classes.technologies}
                         component={motion.h5}
                         layoutId={`technologies-${id}`}
-                        color="primary"
+                        color="white"
                     >
                         {technologies.join(" · ")}
                     </Typography>

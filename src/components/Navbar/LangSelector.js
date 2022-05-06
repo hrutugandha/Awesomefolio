@@ -13,8 +13,8 @@ const languages = [
     },
     {
         code: "en",
-        name: "EN",
-        country_code: "gb",
+        name: "IND",
+        country_code: "in",
     },
 ];
 
