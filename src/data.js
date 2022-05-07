@@ -4,6 +4,7 @@
 const skillsList = [
     { title: "React JS", value: 75 },
     { title: "Node js", value: 80 },
+    { title: "JavaScript", value: 80 },
     { title: "Mongo DB", value: 80 },
     { title: "Styled components", value: 80 },
     { title: "HTML5", value: 60 },

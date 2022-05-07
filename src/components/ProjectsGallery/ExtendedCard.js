@@ -54,10 +54,10 @@ const ExtendedCard = ({ id, title, gitHub, webSite, backgroundImage, frontImage,
     AlignItems: 'center'
 }}>
                             <motion.div animate={controls} custom={0} >
-                                <IconBtn fontSize="small" icon={GitHub} m={1} href={gitHub} />                           
+                                <IconBtn fontSize="small" icon={GitHub} m={1} href={gitHub} target={"_blank"}/>                           
                             </motion.div>
                             <motion.div animate={controls} custom={0}>
-                                <IconBtn fontSize="small" icon={Language} fontSize={28} m={1} href={webSite} />
+                                <IconBtn fontSize="small" icon={Language} m={1} href={webSite} target="_blank" />
                             </motion.div>
                                 </div>
                             <Typography
