@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { Typography, Button, makeStyles } from "@material-ui/core";
+import { Typography, Button, makeStyles, Box, Heading } from "@material-ui/core";
 import { motion, useAnimation } from "framer-motion";
 import { Link } from "react-scroll";
 import HomeContainer from "../../containers/HomeContainer";
@@ -26,7 +26,7 @@ const Home = () => {
 
     return (
         <HomeContainer id="home">
-            <div>
+            <Box border="1px solid red">
                 <Typography
                     component={motion.div}
                     animate={controls}
@@ -38,7 +38,7 @@ const Home = () => {
                     {t("home_welcome")}
                     <motion.div
                         style={{ display: "inline-block" }}
-                        animate={{ rotate: [50, 90, 50] }}
+                        animate={{ rotate: [10, 70, 10] }}
                         transition={{ repeat: Infinity, duration: 1.4, repeatDelay: 0.7 }}
                     >
                         👋
@@ -46,10 +46,10 @@ const Home = () => {
                     , {t("home_i")}
                 </Typography>
                 <Typography
-                    component={motion.p}
+                    component={motion.h2}
                     animate={controls}
                     custom={2}
-                    variant="h2"
+                    variant="h1"
                     color="secondary"
                     className={classes.subTitle}
                 >
@@ -59,7 +59,7 @@ const Home = () => {
                     component={motion.p}
                     animate={controls}
                     custom={2}
-                    variant="h3"
+                    variant="h2"
                     color="secondary"
                     className={classes.subTitle}
                 >
@@ -100,7 +100,7 @@ const Home = () => {
                         {t("home_contact_btn")}
                     </Button>
                 </motion.div>
-            </div>
+            </Box>
         </HomeContainer>
     );
 };
