@@ -115,14 +115,16 @@ const Menu = ({homeIsActive}) => {
                     href="/resume.pdf"
                     variant="outlined"
                     color="primary"
+                    target="_blank" 
+                    rel="noreferrer"
                     underline="none"
                 >
                     {t('menu_resume')}
                 </Button>
             </motion.div>
-            <motion.div custom={5} animate={controls}>
+            {/* <motion.div custom={5} animate={controls}>
                 <LangSelector style={{ marginLeft: "32px" }} />
-            </motion.div>
+            </motion.div> */}
         </div>
     );
 };

@@ -38,7 +38,7 @@ const Home = () => {
                     {t("home_welcome")}
                     <motion.div
                         style={{ display: "inline-block" }}
-                        animate={{ rotate: [50, 90, 50] }}
+                        animate={{ rotate: [10, 70, 10] }}
                         transition={{ repeat: Infinity, duration: 1.4, repeatDelay: 0.7 }}
                     >
                         👋

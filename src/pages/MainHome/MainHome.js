@@ -24,8 +24,8 @@ const MainHome = () => {
         >
             <Home />
             <About />
-            <Experience />
             <Education/>
+            <Experience />
             <Projects />
             <Contact />
             {!isMobile && <Background3d />}

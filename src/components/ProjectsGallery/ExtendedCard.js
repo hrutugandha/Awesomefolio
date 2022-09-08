@@ -54,10 +54,14 @@ const ExtendedCard = ({ id, title, gitHub, webSite, backgroundImage, frontImage,
     AlignItems: 'center'
 }}>
                             <motion.div animate={controls} custom={0} >
-                                <IconBtn fontSize="small" icon={GitHub} m={1} href={gitHub} />                           
+                                <a href={gitHub} target="_blank" rel="noreferrer">
+                                <IconBtn fontSize="small" icon={GitHub} m={1} /> 
+                                </a>                          
                             </motion.div>
                             <motion.div animate={controls} custom={0}>
-                                <IconBtn fontSize="small" icon={Language} fontSize={28} m={1} href={webSite} />
+                                <a href={webSite}target="_blank" rel="noreferrer" >
+                                <IconBtn icon={Language} fontSize={28} m={1} />
+                                </a>
                             </motion.div>
                                 </div>
                             <Typography
@@ -159,7 +163,7 @@ const useStyles = makeStyles((theme) => ({
     },
     technologies: {
         fontSize: "15px",
-        color:"rgb(10,10,10)",
+        color:"white",
     },
     closeBtn: {
         position: "absolute",

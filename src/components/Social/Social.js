@@ -28,22 +28,34 @@ const Social = ({ mobile }) => {
     if (mobile) {
         return (
             <div className={classes.mobileWrapper}>
-                <IconBtn icon={GitHub} m={1} href="https://github.com/hrutugandha"  />
-                <IconBtn icon={LinkedIn} m={1} href="https://www.linkedin.com/in/hrutugandha-n-32735219b/" />
-                <IconBtn icon={Email} m={1} href="mailto:hrutunishi19@gmail.com" />
+                <a href="https://github.com/hrutugandha" rel="noreferrer">
+                <IconBtn icon={GitHub} m={1} />
+                </a>
+                <a href="https://www.linkedin.com/in/hrutugandha-n-32735219b/"  rel="noreferrer" target="_blank">
+                    <IconBtn icon={LinkedIn} m={1} />
+                    </a>
+                    <a href="mailto:hrutunishi19@gmail.com" rel="noreferrer" target="_blank">
+                    <IconBtn icon={Email} m={1} />
+                    </a>
             </div>
         );
     } else {
         return (
             <motion.div className={classes.wrapper}>
                 <motion.div animate={controls} custom={0}>
-                    <IconBtn icon={GitHub} m={1} href="https://github.com/hrutugandha" />
+                    <a href="https://github.com/hrutugandha" rel="noreferrer" target="_blank">
+                    <IconBtn icon={GitHub} m={1} />
+                    </a>
                 </motion.div>
                 <motion.div animate={controls} custom={2}>
-                    <IconBtn icon={LinkedIn} m={1} href="https://www.linkedin.com/in/hrutugandha-n-32735219b/" />
+                    <a href="https://www.linkedin.com/in/hrutugandha-n-32735219b/"  rel="noreferrer" target="_blank">
+                    <IconBtn icon={LinkedIn} m={1} />
+                    </a>
                 </motion.div>
                 <motion.div animate={controls} custom={3}>
-                    <IconBtn icon={Email} m={1} href="mailto:hrutunishi19@gmail.com" />
+                    <a href="mailto:hrutunishi19@gmail.com" rel="noreferrer" target="_blank">
+                    <IconBtn icon={Email} m={1} />
+                    </a>
                 </motion.div>
                 <motion.div animate={controls} custom={4}>
                     <DarkModeSwitcher />

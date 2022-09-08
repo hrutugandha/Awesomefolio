@@ -2,15 +2,21 @@
 
 
 const skillsList = [
-    { title: "React JS", value: 75 },
-    { title: "Node js", value: 80 },
-    { title: "Mongo DB", value: 80 },
-    { title: "Styled components", value: 80 },
-    { title: "HTML5", value: 60 },
-    { title: "CSS3 ", value: 70 },
+    { title: "React", value: 75 },
+    { title: "Redux", value: 75 },
     { title: "Data Structure and Algorithms", value: 70 },
+    { title: "Chakra UI", value: 75 },
+    { title: "Node Js", value: 80 },
+    { title: "JavaScript", value: 80 },
+    { title: "CSS3 ", value: 70 },
     { title: "Python", value: 70 },
     { title: "REST Api's", value: 70 },
+    { title: "Styled components", value: 80 },
+    { title: "HTML5", value: 60 },
+    { title: "Mongo DB", value: 80 },
+    { title: "Express Js", value: 75 },
+    { title: "Problem Solving", value: 75 },
+    { title: "Figma", value: 75 },
 ];
 const projectList = [
     {

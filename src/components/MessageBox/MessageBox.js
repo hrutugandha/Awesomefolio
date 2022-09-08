@@ -137,7 +137,7 @@ const MessageBox = () => {
                             transition={{delay:1.5, duration:1}}
                             variant="body2"
                         >
-                            Your message has been successfully sent, Please wait for my replay.
+                            Your message has been successfully sent, Please wait for my reply.
                         </Typography>
                     </Box>
                 )}
