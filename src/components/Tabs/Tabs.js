@@ -36,7 +36,6 @@ const StyledTabs = () => {
                         <Typography variant="h5">
                             {t(`experience_${elem.id}_job`)} @{" "}
                             <Link
-                                target="_blank"
                                 href={elem.links.website || elem.links.facebook || elem.links.instagram}
                                 color="primary"
                             >
@@ -54,19 +53,13 @@ const StyledTabs = () => {
                     </Box>
                     <Box>
                         {elem.links.website && (
-                            <a href={elem.links.website} target="_blank" rel="noreferrer" >
-                                <IconBtn icon={Language} fontSize={28} m={1}/>
-                            </a>
+                            <IconBtn icon={Language} fontSize={28} m={1} href={elem.links.website} />
                         )}
                         {elem.links.facebook && (
-                            <a href={elem.links.facebook} target="_blank" rel="noreferrer" >
-                                <IconBtn icon={Facebook} fontSize={28} m={1}/>
-                            </a>
+                            <IconBtn icon={Facebook} fontSize={28} m={1} href={elem.links.facebook} />
                         )}
                         {elem.links.instagram && (
-                            <a href={elem.links.instagram} target="_blank"  rel="noreferrer">
-                                <IconBtn icon={Instagram} fontSize={28} m={1}/>
-                            </a>
+                            <IconBtn icon={Instagram} fontSize={28} m={1} href={elem.links.instagram} />
                         )}
                     </Box>
                 </TabPanel>

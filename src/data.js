@@ -2,25 +2,19 @@
 
 
 const skillsList = [
-    { title: "React", value: 75 },
-    { title: "Redux", value: 75 },
-    { title: "Chakra UI", value: 75 },
-    { title: "Node Js", value: 80 },
-    { title: "JavaScript", value: 80 },
+    { title: "React JS", value: 75 },
+    { title: "Node js", value: 80 },
     { title: "Mongo DB", value: 80 },
-    { title: "Express Js", value: 75 },
     { title: "Styled components", value: 80 },
     { title: "HTML5", value: 60 },
     { title: "CSS3 ", value: 70 },
     { title: "Data Structure and Algorithms", value: 70 },
     { title: "Python", value: 70 },
     { title: "REST Api's", value: 70 },
-    { title: "Problem Solving", value: 75 },
-    { title: "Figma", value: 75 },
 ];
 const projectList = [
     {
-        id: 0,
+        id: 1,
         title: `PotteryBarn Clone | Apr 2022 | `,
         technologies: ["React JS", "Node JS", "MongoDB", "Express JS"],
         gitHub: "https://github.com/kamal-k-rajput/potterybarn_clone/",
@@ -30,7 +24,7 @@ const projectList = [
         frontImage: "https://www.retail4growth.com/public/uploads/editor/2019-04-17/1555498144.jpg",
     },
     {
-        id: 1,
+        id: 2,
         title: "SugarCosmetics Clone | Feb 2022",
         technologies: ["HTML","CSS","JavaScript"],
         gitHub: "https://github.com/hrutugandha/Sugar_Cosmetics_Project/",
@@ -40,7 +34,7 @@ const projectList = [
         frontImage: "https://customercarelife.com/wp-content/uploads/2020/08/Sugar-Cosmetics.jpg",
     },
     {
-        id: 2,
+        id: 3,
         title: "Weather App | Solo Project - Jan 2022",
         technologies: ["HTML","CSS","JavaScript","API"],
         gitHub: "https://github.com/hrutugandha/day_07_weather_app/",

@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Link, makeStyles } from "@material-ui/core";
 import { motion } from "framer-motion";
 
-const IconBtn = ({children, icon: Icon, href,fontSize, ...rest }) => {
+const IconBtn = ({ icon: Icon, href,fontSize, ...rest }) => {
     const classes = useStyles({fontSize});
     return (
         <Box
@@ -11,7 +11,7 @@ const IconBtn = ({children, icon: Icon, href,fontSize, ...rest }) => {
             component={motion.div}
             whileHover={{ scale: 1.1 }}
         >
-            <Link  target="_blank" rel="noreferrer" to={href}>
+            <Link href={href}>
                 <Icon className={classes.icon} />
             </Link>
         </Box>
