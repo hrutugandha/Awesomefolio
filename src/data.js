@@ -21,33 +21,33 @@ const skillsList = [
 const projectList = [
     {
         id: 1,
-        title: `PotteryBarn Clone | Apr 2022 | `,
-        technologies: ["React JS", "Node JS", "MongoDB", "Express JS"],
-        gitHub: "https://github.com/kamal-k-rajput/potterybarn_clone/",
-        webSite: "https://potterybarn-clone.netlify.app/",
+        title: `TRIPADVISOR CLONE | JUL 2022`,
+        technologies: ["React", "REST API", "Chakra UI", "Redux"],
+        gitHub: "https://github.com/hrutugandha/frail-power-8560",
+        webSite: "https://tripadvisor-frail-power-8560.netlify.app/",
         backgroundImage:
             "https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?cs=srgb&dl=pexels-ben-mack-6775241.jpg&fm=jpg",
-        frontImage: "https://www.retail4growth.com/public/uploads/editor/2019-04-17/1555498144.jpg",
+        frontImage: "https://user-images.githubusercontent.com/101579810/180704706-3b99781e-afc7-4201-8387-0f1ee5efcbd9.png",
     },
     {
         id: 2,
-        title: "SugarCosmetics Clone | Feb 2022",
-        technologies: ["HTML","CSS","JavaScript"],
-        gitHub: "https://github.com/hrutugandha/Sugar_Cosmetics_Project/",
-        webSite: "https://sugar-cosmetic.netlify.app/",
+        title: "UBORIC CLONE | AUG 2022",
+        technologies: ["React", "Chakra UI", "JSON server" , "Redux"],
+        gitHub: "https://github.com/amit05c/exclusive-oatmeal-9601",
+        webSite: "https://exclusive-oatmeal-9601.vercel.app/",
         backgroundImage:
             "https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?cs=srgb&dl=pexels-ben-mack-6775241.jpg&fm=jpg",
-        frontImage: "https://customercarelife.com/wp-content/uploads/2020/08/Sugar-Cosmetics.jpg",
+        frontImage: "https://camo.githubusercontent.com/7400c211519b952181a14107878d6630a02d9c10a2b59f8347e2821721b51b5b/68747470733a2f2f6d656469612d657870312e6c6963646e2e636f6d2f646d732f696d6167652f4335363132415148524570567570676c4e70512f61727469636c652d696e6c696e655f696d6167652d736872696e6b5f313530305f323233322f302f313635323238383536313337373f653d3136363632323430303026763d6265746126743d475951344247324a69687a7a434368455257615871676c7967325671734b722d476d6d5a65416f4a716330",
     },
     {
         id: 3,
-        title: "Weather App | Solo Project - Jan 2022",
-        technologies: ["HTML","CSS","JavaScript","API"],
-        gitHub: "https://github.com/hrutugandha/day_07_weather_app/",
-        webSite: "https://vibrant-leakey-8db7bc.netlify.app/",        
+        title: "PotteryBarn Clone | Apr 2022",
+        technologies: ["HTML" , "CSS" , "JavaScript" , "MongoDb" , "Express.js"],
+        gitHub: "https://github.com/kamal-k-rajput/potterybarn_clone",
+        webSite: "https://potterybarn-clone.netlify.app/",        
         backgroundImage:
             "https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?cs=srgb&dl=pexels-ben-mack-6775241.jpg&fm=jpg",
-        frontImage: "https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App.png",
+        frontImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRynm1a-Jsbn7SBcrw_MIRr0rDpRO6GjK0TMSYCYtRjqQRaIzzHGCh_Cxu9HshZwPcgh0&usqp=CAU",
     },
 ];
 
