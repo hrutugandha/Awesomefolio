@@ -1,4 +1,4 @@
-0import React from "react";
+import React from "react";
 import { Container, Typography, makeStyles, Divider, useTheme, Box, useMediaQuery } from "@material-ui/core";
 import Social from "../Social";
 
